@@ -1,0 +1,6 @@
+REM A short series of commands to reboot a Linux OS
+DELAY 3000
+CTRL-ATL t
+DELAY 300
+STRING reboot
+ENTER
