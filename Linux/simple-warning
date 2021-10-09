@@ -1,5 +1,8 @@
 REM A simple command flow to open the terminal and write a message
 DELAY 1000
-CTRL+ALT+T
-DELAY 100
-STRING Don't use untrusted USB sticks!
+CTRL-ALT t
+DELAY 50
+STRING nano hack.txt
+ENTER
+DELAY 50
+STRING do not use untrusted usb sticks
