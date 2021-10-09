@@ -8,6 +8,8 @@ REM open the browser of your choice - in this case, firefox
 STRING firefox
 ENTER
 DELAY 2000
+REM longer urls seem to be prone to typing errors 
+REM so I split up the string into two portions.
 STRING https://soundcloud.com/
 DELAY 100
 STRING secret-service-862007284/industry-baby
