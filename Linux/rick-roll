@@ -1,0 +1,14 @@
+REM A simple command flow to open the terminal and write a message
+DELAY 500
+REM open the terminal in Lunix using keystrokes
+CTRL-ALT t
+REM a delay of 500 seemed to work best for this program
+DELAY 500
+STRING firefox
+ENTER
+DELAY 4000
+ALT d
+ENTER
+DELAY 500
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER 
