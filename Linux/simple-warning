@@ -1,8 +1,14 @@
 REM A simple command flow to open the terminal and write a message
-DELAY 1000
+DELAY 500
 CTRL-ALT t
-DELAY 50
+DELAY 500
+STRING cd Desktop
+ENTER
+DELAY 500
+STRING touch hack.txt
+ENTER
+DELAY 500
 STRING nano hack.txt
 ENTER
-DELAY 50
+DELAY 500
 STRING do not use untrusted usb sticks
