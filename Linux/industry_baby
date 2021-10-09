@@ -4,11 +4,14 @@ REM open the terminal in Lunix using keystrokes
 CTRL-ALT t
 REM a delay of 500 seemed to work best for this program
 DELAY 500
+REM open the browser of your choice - in this case, firefox
 STRING firefox
 ENTER
-DELAY 4000
-ALT d
+DELAY 2000
+STRING https://soundcloud.com/
+DELAY 100
+STRING secret-service-862007284/industry-baby
 ENTER
-DELAY 500
-STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
-ENTER 
+DELAY 2000
+REM play the song by pressing the space bar
+SPACE
